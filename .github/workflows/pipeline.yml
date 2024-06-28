@@ -21,4 +21,6 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     - name: Execute the unit tests
-      run: npm run tests:unit
+      run: npm run test:unit
+    - name: Display username
+      run: echo 'niko_tsonev'
